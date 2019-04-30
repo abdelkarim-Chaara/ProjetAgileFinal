@@ -1,8 +1,8 @@
 # Projet Agile Final
 
 # Projet Structre 
-        Frontend : Interface Web developed by StencilJS
-        Backend  : Developed by Java EE
+        Frontend : Interface Web developed Using StencilJS
+        Backend  : Developed Using Java EE
         Database : database.sql
         PDF      : only for documentation 
         Deploy   : clevercloud.com
