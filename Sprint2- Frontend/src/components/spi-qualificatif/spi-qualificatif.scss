@@ -1,0 +1,112 @@
+@import "../../../node_modules/bulma/sass/components/card.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+
+@import "../../../node_modules/bulma/sass/components/card.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../../node_modules/bulma/sass/grid/tiles.sass";
+@import "../../../node_modules/bulma/sass/elements/table.sass";
+@import "../../../node_modules/bulma/sass/layout/hero.sass";
+
+
+
+html,body{
+   
+   background-image: url('https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+   background-position: center;
+   background-size: cover;
+   height:100%;
+  }
+  #plus{
+    font-size: 80px;
+    float: right; 
+    color: black;
+  }
+
+.hero .title a {
+  text-decoration: underline;
+}
+
+
+#table{
+  background-color: rgba(0,0,0,0.15em);
+  width: 800px;
+}
+
+
+#tablecontainer, .container{
+  margin: 0 auto;
+}
+
+.table{
+    font-size:20px;
+    margin-top:0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: inline-table;
+    font-weight: 500;
+    table-layout: fixed;
+ 
+}
+
+.table thead{
+    text-align: center;
+}
+
+.table th {
+text-align: center;
+}
+
+.table tr{
+  text-align: center;
+
+    line-height: 26px;
+}
+
+.table thead td, .table thead th {
+    border-width: 0 0 2px;
+    color: #5A73E9;
+    height: 40px;
+    text-align: center;
+
+}
+
+child td, .table.is-bordered tr:last-child th {
+    border-bottom-width: 3px;
+    background-color:#D0D6F6;
+    text-align: center;
+
+}
+
+span{
+    align-content: center;
+}
+.table.is-bordered tr:last-child td, .table.is-bordered tr:last-child th {
+    border-bottom-width: 2.5px;
+}
+
+child td, .table.is-bordered tr:last-child th {
+    border-bottom-width: 3px;
+    width: 120px;
+   
+}
+
+td{
+    width: 12px;
+}
+td,
+th {
+   
+  border: 1px solid;
+  padding: .5em 1em;
+
+  border: 1px solid black;
+  overflow: hidden;
+  
+}
+h2{
+  font-family: aclonica, sans-serif;
+  font-size: 20px;
+  margin-top: -30px;
+  text-align: center;
+}
+
